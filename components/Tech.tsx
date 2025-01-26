@@ -78,7 +78,7 @@ export const Tech = () => {
                                 initial={{ opacity: 0, y: 100 }} 
                                 whileInView={{ opacity: 1, y: 0 }} 
                                 transition={{ duration: 0.4 }} 
-                                viewport={{ once: false }}
+                              
                                 whileHover={{ y: -5, transition: { duration: 0 } }}
                                 
 
