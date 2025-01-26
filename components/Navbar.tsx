@@ -11,13 +11,18 @@ const Navbar = () => {
                     <h1 className="top-0 left-0 absolute text-2xl hover:text-gray-100 transition-all duration-300 cursor-pointer font-extrabold text-transparent blur-lg ">About</h1>
                     <h1 className="text-2xl hover:text-gray-500 transition-all duration-300 cursor-pointer">About</h1>
                 </div>
-                <div>
+                <div className="relative">
+
+                    <h1 className="top-0 left-0 absolute text-2xl hover:text-gray-100 transition-all duration-300 cursor-pointer font-extrabold text-transparent blur-lg ">Tech</h1>
                     <h1 className="text-2xl hover:text-gray-500 transition-all duration-300 cursor-pointer">Tech</h1>
                 </div>
-                <div>
+                <div className="relative">
+                    <h1 className="top-0 left-0 absolute text-2xl hover:text-gray-100 transition-all duration-300 cursor-pointer font-extrabold text-transparent blur-lg ">Projects</h1>
                     <h1 className="text-2xl hover:text-gray-500 transition-all duration-300 cursor-pointer">Projects</h1>
                 </div>
-                <div>
+                <div className="relative">
+
+                    <h1 className="top-0 -left-1 absolute text-2xl hover:text-gray-100 transition-all duration-300 cursor-pointer font-extrabold text-transparent blur-lg ">Contact</h1>
                     <h1 className="text-2xl hover:text-gray-500 transition-all duration-300 cursor-pointer">Contact</h1>
                 </div>
              
