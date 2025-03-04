@@ -6,7 +6,6 @@ import { useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
 import { Merriweather } from 'next/font/google';
 import { NavScrollStore } from "@/zustand/NavScrollStore";
-import { RefObject } from "react";
 const merriweather = Merriweather({
     weight: ['300', '400', '700', '900'], 
     subsets: ['latin'], 
@@ -18,11 +17,9 @@ const colors = [
 ];
 
 const Hero = () => {
-    const aboutRef = useNavScroll((state: any) => state.aboutRef);
     const [ hideScroll, setHideScroll ] = useState(false)
     const { scrollY } = useScroll()
 
-    const { projectsRef } = useNavScroll((state: NavScrollStore) => state)
 
     useMotionValueEvent(scrollY, "change", (latest) => {
        setHideScroll(true)

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { Github, ExternalLink, ArrowRight } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 import { Project } from './ProjectShowCase';
 import { Card } from '../ui/card';
 import Image from 'next/image';

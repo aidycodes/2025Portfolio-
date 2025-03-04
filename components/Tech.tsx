@@ -1,9 +1,8 @@
 'use client'
 import Image from "next/image";
-import { Card, CardContent, CardFooter, CardTitle } from "@/components/ui/card";
+import { CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { motion, useInView } from "framer-motion";
-import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
 import { useEffect, useState } from 'react';
 import { useNavScroll } from "@/zustand/NavScrollStore";
 import { RefObject, useRef } from "react";

@@ -1,6 +1,5 @@
 'use client'
 import ProjectsShowcase from "./projects/ProjectShowCase";
-import  MaxWidthWrapper  from "./MaxWidthWrapper";
 import { useRef, useEffect } from "react";
 import { useNavScroll } from "@/zustand/NavScrollStore";
 import { RefObject } from "react";

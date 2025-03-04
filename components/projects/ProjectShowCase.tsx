@@ -1,7 +1,5 @@
 import React from 'react';
-import ProjectCard from './ProjectCard';
 import ProjectCardLarge from './ProjectCardLarge';
-import MaxWidthWrapper from '../MaxWidthWrapper';
 
 export type Project = {
   title: string;

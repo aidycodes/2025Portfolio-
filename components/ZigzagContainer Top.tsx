@@ -7,7 +7,7 @@ interface ZigzagContainerProps {
     children?: React.ReactNode;
 }
 
-const ZigzagContainerTop = ({ height, className, children }: ZigzagContainerProps) => {
+const ZigzagContainerTop = ({ height, className }: ZigzagContainerProps) => {
     return (
         <div 
             className={cn(

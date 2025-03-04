@@ -4,8 +4,7 @@ import ZigzagContainer from './ZigzagContainer';
 import ZigzagContainerTop from './ZigzagContainer Top';
 import MaxWidthWrapper from './MaxWidthWrapper';
 import localFont from 'next/font/local';
-import { motion, useInView } from 'framer-motion';
-import { useScrollTo } from '../hooks/useScrollTo';
+import { motion } from 'framer-motion';
 import { useNavScroll } from '../zustand/NavScrollStore';
 import { RefObject } from 'react';
 
