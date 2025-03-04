@@ -82,10 +82,10 @@ const SendMessageDialog = ({ children }: { children: React.ReactNode }) => {
       <DialogContent className="sm:max-w-md bg-zinc-900 rounded-lg border-none shadow-xl">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-            {isSent ? 'Message Sent!' : `Let's Chat!`}
+            {isSent ? 'Message Sent!' : 'Let\u0027s Chat!'}
           </DialogTitle>
           <DialogDescription className="text-gray-400">
-            {isSent ? '.' : `Fill out the form below and I'll get back to you soon.`}
+            {isSent ? '.' : `Fill out the form below and I\u0027ll get back to you soon.`}
           </DialogDescription>
         </DialogHeader>
 

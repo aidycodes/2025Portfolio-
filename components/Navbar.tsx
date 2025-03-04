@@ -18,7 +18,6 @@ const Navbar = () => {
     aboutRef,
     techRef,
     projectsRef,
-    contactRef,
     aboutViewRef,
     projectsViewRef,
     scrollTo
