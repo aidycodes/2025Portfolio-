@@ -9,14 +9,16 @@ import Link from 'next/link';
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <Card className="flex flex-col rounded-xl shadow-lg overflow-hidden transition-transform transform hover:-translate-y-2 hover:shadow-xl max-w-sm mx-auto h-auto">
-      <div className="w-full h-48 overflow-hidden">
+      <div className="w-full h-64 overflow-hidden">
+        <Link href={project.liveLink} target="_blank">
         <Image
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover cursor-pointer"
           width={450}
           height={300}
         />
+        </Link>
       </div>
       <div className="flex flex-col p-6 flex-grow">
         <h3 className="text-xl font-semibold text-gray-300 mb-2">

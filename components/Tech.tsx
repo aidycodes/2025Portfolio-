@@ -2,8 +2,12 @@
 import Image from "next/image";
 import { Card, CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { cn } from "@/lib/utils";
 import { useEffect, useState } from 'react';
+import { useNavScroll } from "@/zustand/NavScrollStore";
+import { RefObject, useRef } from "react";
+
 
 const TECH_STACK = [
     {
@@ -57,20 +61,23 @@ const TECH_STACK = [
 ]
 
 export const Tech = () => {
-    const [isLoaded, setIsLoaded] = useState(false);
+
+    const techRef = useRef<HTMLDivElement>(null);
+  
+    const setRef = useNavScroll((state: any) => state.setRef)
 
     useEffect(() => {
-        setIsLoaded(true);
-    }, []);
+        setRef(techRef as RefObject<HTMLDivElement>, 'tech');
+    }, [techRef, setRef]);
 
-    if (!isLoaded) return null;
 
     return (
         <MaxWidthWrapper>
             <div className="flex justify-center">
-                <div className="mt-20">
+                <div  ref={techRef}  className="mt-20">
                     <div>
-                        <h2 className="text-4xl font-bold text-gray-100 text-pretty m-10">Tech</h2>
+                        <h2 className="text-4xl font-bold text-gray-300 text-pretty mx-10 mb-4 mt-28">Technologys I Love</h2>
+                        <p className="text-gray-100 text-pretty text-wrap mb-8 mx-10 text-gray-400">I am proficient in a variety of modern technologies that enable me to develop highly effective and functional solutions. </p>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-4 space-y-0">
                         {TECH_STACK.map(({ icon, name }, i) => (
