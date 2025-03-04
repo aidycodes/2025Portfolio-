@@ -54,7 +54,7 @@ export const About = () => {
                                     About Me
                                 </h2>
                                 <p className={`text-gray-100 text-pretty ${JetBrainsMonoLight.className}`}>
-                                    Hello! I'm a Dedicated Full Stack Developer based in Bristol,
+                                    Hello! I&apos;m a Dedicated Full Stack Developer based in Bristol,
                                     UK.<br/> Commited to crafting beautiful and functional websites and web applications
                                     With a background in computer science and several years of experience in the tech industry,
                                     I specialize in building responsive, user-friendly interfaces and robust backend systems.

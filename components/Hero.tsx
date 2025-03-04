@@ -66,7 +66,7 @@ const Hero = () => {
                             transition={{ duration: 0.5 }}
                             whileHover={{ scale: 1.05 }}
                         >
-                            Aidan O'Connor <br/> 
+                            Aidan O&apos;Connor <br/> 
                             <span className="text-gray-400">Web Developer</span>
                         </motion.h1>
 

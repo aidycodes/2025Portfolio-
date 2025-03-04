@@ -24,7 +24,7 @@ export async function POST(req: Request) {
       if (!channelId.success) {
         return new Response('Error creating channel', { status: 500 });
       }
-      const msg = await rest.post(Routes.channelMessages(channelId.data.id), {
+      await rest.post(Routes.channelMessages(channelId.data.id), {
             body: {
                 content: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
             }
