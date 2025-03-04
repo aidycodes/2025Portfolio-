@@ -1,11 +1,10 @@
 'use client'
 import { motion } from "framer-motion";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { useNavScroll } from "@/zustand/NavScrollStore";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
 import { Merriweather } from 'next/font/google';
-import { NavScrollStore } from "@/zustand/NavScrollStore";
+
 const merriweather = Merriweather({
     weight: ['300', '400', '700', '900'], 
     subsets: ['latin'], 
@@ -21,7 +20,7 @@ const Hero = () => {
     const { scrollY } = useScroll()
 
 
-    useMotionValueEvent(scrollY, "change", (latest) => {
+    useMotionValueEvent(scrollY, "change", () => {
        setHideScroll(true)
     })
 

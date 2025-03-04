@@ -29,7 +29,6 @@ const Navbar = () => {
    const aboutView = useInView(aboutViewRef ? aboutViewRef : fallbackRef)
    const techView = useInView(techRef ? techRef : fallbackRef)
    const projectsView = useInView(projectsRef ? projectsRef : fallbackRef)
-   const contactView = useInView(contactRef ? contactRef : fallbackRef)
    const projectsViewExtended = useInView(projectsViewRef ? projectsViewRef : fallbackRef)
    
     return (

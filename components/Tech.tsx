@@ -3,7 +3,7 @@ import Image from "next/image";
 import { CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { motion } from "framer-motion";
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useNavScroll } from "@/zustand/NavScrollStore";
 import { RefObject, useRef } from "react";
 
@@ -63,7 +63,7 @@ export const Tech = () => {
 
     const techRef = useRef<HTMLDivElement>(null);
   
-    const setRef = useNavScroll((state: any) => state.setRef)
+    const setRef = useNavScroll((state) => state.setRef)
 
     useEffect(() => {
         setRef(techRef as RefObject<HTMLDivElement>, 'tech');
@@ -79,7 +79,7 @@ export const Tech = () => {
                         <p className="text-gray-100 text-pretty text-wrap mb-8 mx-10 text-gray-400">I am proficient in a variety of modern technologies that enable me to develop highly effective and functional solutions. </p>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-4 space-y-0">
-                        {TECH_STACK.map(({ icon, name }, i) => (
+                        {TECH_STACK.map(({ icon, name }) => (
                             <motion.div 
                                 initial={{ opacity: 0, y: 100 }} 
                                 whileInView={{ opacity: 1, y: 0 }} 

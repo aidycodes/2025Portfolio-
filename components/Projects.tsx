@@ -7,7 +7,7 @@ import { RefObject } from "react";
 export const Projects = () => {
     const projectsRef = useRef<HTMLDivElement>(null);
     const projectsViewRef = useRef<HTMLDivElement>(null);
-    const setRef = useNavScroll((state: any) => state.setRef)
+    const setRef = useNavScroll((state) => state.setRef)
    
     useEffect(() => {
         setRef(projectsRef as RefObject<HTMLDivElement>, 'projects');
