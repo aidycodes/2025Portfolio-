@@ -153,6 +153,7 @@ const SendMessageDialog = ({ children }: { children: React.ReactNode }) => {
               </svg>
             </div>
             <h3 className="text-xl font-medium text-gray-900 mb-1">Message Sent!</h3>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <p className="text-gray-400">Thanks for reaching out. I'll respond soon.</p>
           </div>
         )}
