@@ -66,6 +66,7 @@ export const About = () => {
                                     I am particularly interested in the intersection of technology and design,
                                     I enjoy getting the small details of the UI/UX right 
                                     and I love working on projects that challenge me to think creatively.
+                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                                     When I'm not developing web apps I am currently Studying for Aws Cloud Certifications and enjoy doing CTF cybersecuity challenges with HTB and TryHackMe.
                                 </p>
                             </div>
