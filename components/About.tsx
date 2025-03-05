@@ -63,10 +63,10 @@ export const About = () => {
                                     Hobbys & Interests
                                 </h2>
                                 <p className={`text-gray-100 text-pretty ${JetBrainsMonoLight.className}`} >
-                                    I am particularly interested in the intersection of technology and design, 
+                                    I am particularly interested in the intersection of technology and design,
+                                    I enjoy getting the small details of the UI/UX right 
                                     and I love working on projects that challenge me to think creatively.
-                                    In my free time, I have a passion for cybersecurity, spefically penetration testing, working with friends to hack into advanced ctfs using tools like metasploit, nmap, wireshark, and more. 
-                                    I am currently working on an open source Auth solutation for nextJs which will intergrate with drizzle and prisma orms when using postgres, redis or mysql.
+                                    When I'm not developing web apps I am currently Studying for Aws Cloud Certifications and enjoy doing CTF cybersecuity challenges with HTB and TryHackMe.
                                 </p>
                             </div>
                         </div>
