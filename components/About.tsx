@@ -68,7 +68,7 @@ export const About = () => {
                                     and I love working on projects that challenge me to think creatively.
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                                     When I'm not developing web apps I am currently Studying for Aws Cloud Certifications and enjoy doing CTF cybersecuity challenges with HTB and TryHackMe.
-
+                                    <div className="h-16" />
                                 </p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export const About = () => {
                 </MaxWidthWrapper>
             </motion.div>
         
-        <ZigzagContainer className="-mt-[1px]" />
+        <ZigzagContainer className="" />
         </>
     )
 }
