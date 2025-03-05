@@ -34,20 +34,20 @@ const TECH_STACK = [
         icon: <Image src="/tech/postgresql.svg" alt="PostgreSQL" width={100} height={100} />
     },
     {
-        name: "MySQL",
-        icon: <Image src="/tech/mysql.svg" alt="MySQL" width={100} height={100} />
+        name: "TanStack",
+        icon: <Image src="/tech/tanstack.png" alt="TanStack" width={100} height={100} />
     },
     {
-        name: "MongoDB",
-        icon: <Image src="/tech/mongodb.svg" alt="MongoDB" width={100} height={100} />
+        name: "Zod",
+        icon: <Image src="/tech/zod.svg" alt="Zod" width={100} height={100} />
     },
     {
         name: "Redis",
         icon: <Image src="/tech/redis.svg" alt="Redis" width={100} height={100} />
     },
     {
-        name: "Prisma",
-        icon: <Image src="/tech/prisma.svg" alt="Prisma" width={100} height={100} />
+        name: "Hono",
+        icon: <Image src="/tech/hono.svg" alt="Hono" width={90} height={90} />
     },
     {
         name: "Drizzle",
