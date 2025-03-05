@@ -47,11 +47,11 @@ const TECH_STACK = [
     },
     {
         name: "Hono",
-        icon: <Image src="/tech/hono.svg" alt="Hono" width={90} height={90} />
+        icon: <Image src="/tech/Hono.svg" alt="Hono" width={90} height={90} />
     },
     {
         name: "Drizzle",
-        icon: <Image src="/tech/drizzle.svg" alt="Drizzle" width={100} height={100} />
+        icon: <Image src="/tech/Drizzle.svg" alt="Drizzle" width={100} height={100} />
     },
     {
         name: "Trpc",
