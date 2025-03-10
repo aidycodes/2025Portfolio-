@@ -13,8 +13,8 @@ export type Project = {
 const projects: Project[] = [
   {
     title: 'Online Store',
-    description: `A online store with user authentication and dashboard to see past orders, SSR for products, user and cart data, intergrating stripe for payments fully
-     typesafe api using zod with jstack and modern data fetching patterns ulitzliing optimistic updates with tanstack query`,
+    description: `An online store with user authentication and a dashboard to view past orders, featuring SSR for products, user data, and cart information.
+     It integrates Stripe for payments and includes a fully type-safe API using Zod with tRPC, along with modern data-fetching patterns that leverage optimistic updates with TanStack Query.`,
     image: '/previews/PosterShop.png',
     techStack: ['React','NextJS 15', 'TailwindCSS', 'Postgres', 'Stripe', 'Better-auth', 'Hono', 'Zod', 'React Hook Form',  'Drizzle', 'TanStack'],
     githubLink: 'https://github.com/aidycodes/postershop2025',
@@ -22,7 +22,7 @@ const projects: Project[] = [
   },
   {
     title: 'Image Converter',
-    description: 'A NextJS 15 project that allows you to convert images to different formats and sizes ultilizing the sharp library and the features of the most recent update of NextJS',
+    description: 'A Next.js 15 project that allows you to convert images to different formats and sizes, utilizing the Sharp library and the latest features from the most recent Next.js update.',
     image: '/previews/ImageConverter.jpg',
     techStack: ['React','NextJS 15', 'TailwindCSS', 'Sharp', 'ShadCN', 'React Hook Form', 'TanStack Query'],
     githubLink: 'https://github.com/aidycodes/Image-Converter',
@@ -30,8 +30,8 @@ const projects: Project[] = [
   },
   {
     title: 'Dashboard',
-    description: `A full solutation for managing an online store for maintaining orders customers and editing, adding, removing new products/categories aswell as alerting to stock levels
-     with charts, graphs and tables with pagination and complex filtering for the orders  and revenue and analytics related to how users interact with the site`,
+    description: `A comprehensive solution for managing an online store, including order management, customer tracking, and the ability to add, edit, or remove products and categories. The system should also provide stock level alerts, along with charts, graphs, and tables for visualizing data. Features such as pagination,
+     advanced filtering for orders and revenue, and detailed analytics on user interactions with the site should also be included.`,
     image: '/previews/dashboard.png',
     techStack: ['React', 'Next.js', 'Typescript', 'Postgres', 'TailwindCSS', 'ShadCN', 'Hono', 'Clerk', 'Drizzle', 'TanStack', 'Recharts', 'zod', 'React-hook-form'],
     githubLink: 'https://github.com/aidycodes/dashboard',
@@ -39,7 +39,7 @@ const projects: Project[] = [
   },
   {
     title: 'Snake Game',
-    description: 'A simple snake game made using only react and nextjs with a leaderboard which is using upstash and reddis to store the data',
+    description: 'A simple Snake game built using only React and Next.js, featuring a leaderboard that uses Upstash and Redis to store the data.',
     image: '/previews/snake1.png',
     techStack: ['React','NextJS', 'TailwindCSS', 'Reddis', 'Javascript', 'Upstash', 'Vercel'],
     githubLink: 'https://github.com/aidycodes/snake2023',
