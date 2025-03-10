@@ -47,7 +47,7 @@ export default function AboutMePage() {
             <div className="p-6">
               <h2 className="text-2xl font-bold mb-4 text-cyan-400 uppercase tracking-wider">Who I Am</h2>
               <p className="mb-4">
-              Hello! I'm a Dedicated Full Stack Developer based in Bristol, UK. 
+              Hello! I&apos;m a Dedicated Full Stack Developer based in Bristol, UK. 
               commited to crafting beautiful and functional websites and web applications. 
               With a background in computer science and several years of experience in the tech industry,
                I specialize in building responsive, user-friendly interfaces and robust backend systems.
@@ -108,7 +108,7 @@ export default function AboutMePage() {
               <p className="mb-4">
               I am particularly interested in the intersection of technology and design. 
               I enjoy getting the small details of the UI/UX right and I love working on projects that challenge me to think creatively.
-               When I'm not developing web apps, I am currently studying for Aws Cloud Certifications and enjoy doing CTF cybersecurity challenges with HTB and TryHackMe.
+               When I&apos;m not developing web apps, I am currently studying for Aws Cloud Certifications and enjoy doing CTF cybersecurity challenges with HTB and TryHackMe.
               </p>
             </div>
           </motion.div>
@@ -141,7 +141,7 @@ export default function AboutMePage() {
             <div  className="p-6">
               <h2 className="text-2xl font-bold mb-4 text-cyan-400 uppercase tracking-wider">Who I Am</h2>
               <p className="mb-4">
-                Hello! I'm a Dedicated Full Stack Developer based in Bristol, UK. 
+                Hello! I&apos;m a Dedicated Full Stack Developer based in Bristol, UK. 
                 commited to crafting beautiful and functional websites and web applications. 
                 With a background in computer science and several years of experience in the tech industry,
                  I specialize in building responsive, user-friendly interfaces and robust backend systems.
@@ -154,7 +154,7 @@ export default function AboutMePage() {
               <p className="mb-4">
                 I am particularly interested in the intersection of technology and design.
                 I enjoy getting the small details of the UI/UX right and I love working on projects that challenge me to think creatively.
-                When I'm not developing web apps, I am currently studying for Aws Cloud Certifications and enjoy doing CTF cybersecurity challenges with HTB and TryHackMe.
+                When Im not developing web apps, I am currently studying for Aws Cloud Certifications and enjoy doing CTF cybersecurity challenges with HTB and TryHackMe.
               </p>   
           
             </div>
