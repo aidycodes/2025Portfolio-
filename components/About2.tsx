@@ -92,10 +92,10 @@ export default function AboutMePage() {
             whileInView={{ x: 0, y: -120, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-            className="absolute left-0 top-[500px] w-[48%] overflow-hidden rounded-lg shadow-lg bg-gradient-to-br from-purple-900/40 to-blue-900/40 backdrop-blur-sm border border-gray-800"
+            className="absolute left-0 top-[500px] mt-8 xl:mt-0 w-[48%] overflow-hidden rounded-lg shadow-lg bg-gradient-to-br from-purple-900/40 to-blue-900/40 backdrop-blur-sm border border-gray-800"
           >
             {/* Browser Window Header */}
-            <div className="bg-slate-900 px-4 py-2 flex items-center border-b border-gray-900">
+            <div className=" bg-slate-900 px-4 py-2 flex items-center border-b border-gray-900">
               <div className="flex space-x-2 mr-4">
                 <div className="w-3 h-3 rounded-full bg-red-500"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
@@ -103,7 +103,7 @@ export default function AboutMePage() {
               </div>
             </div>
             {/* Content */}
-            <div className="p-6">
+            <div className="p-6 ">
               <h2 className="text-2xl font-bold mb-4 text-purple-400 uppercase tracking-wider">Hobbies & Interests</h2>
               <p className="mb-4">
               I am particularly interested in the intersection of technology and design. 
@@ -132,7 +132,7 @@ export default function AboutMePage() {
         </div>
 
         {/* Mobile layout (hidden on desktop) */}
-        <div className="grid grid-cols-1 gap-8 md:hidden">
+        <div className="grid grid-cols-1 gap-8 lg:hidden">
           {/* Section 1: About Me Text */}
           <div className="relative bg-gradient-to-br from-purple-900/40 to-blue-900/40 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden  border-gray-800">
             {/* Top gradient fade */}
