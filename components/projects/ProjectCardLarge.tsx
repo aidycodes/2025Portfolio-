@@ -10,39 +10,37 @@ const ProjectCardLarge = ({ project }: { project: Project }) => {
   return (
     <Card className="max-w-2xl bg-gradient-to-br from-purple-900/40 to-blue-900/40 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-800">
       <div className="flex flex-col h-full">
-        {/* Image Section */}
+    
         <Link href={project.liveLink} target="_blank">
-        <div className="relative h-[400px] group overflow-hidden p-4 cursor-pointer">
-          
+        <div className="relative sm:h-[400px] h-[250px] group overflow-hidden p-4 cursor-pointer">
           <Image
             src={project.image}
-            alt={"project.title"}
+            alt={project.title}
             className="w-full h-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-110 cursor-pointer"
             width={800}
             height={600}
           />
-         
           <div className="absolute inset-0 bg-transparent h-full rounded-xl" />
         </div>
-          </Link>
+        </Link>
 
-        {/* Description Section */}
-        <div className="p-8 flex-1 flex flex-col">
-          <h3 className="text-3xl font-bold text-gray-100 mb-4 tracking-tight">
+     
+        <div className="sm:p-8 p-4 flex-1 flex flex-col">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-100 mb-4 tracking-tight">
             {project.title}
           </h3>
-          <p className="text-gray-300 text-lg leading-relaxed mb-6">
+          <p className="text-gray-300 sm:text-lg text-base leading-relaxed mb-6">
             {project.description}
           </p>
 
-          {/* Technologies Used Section */}
-          <div className="space-y-4 mt-auto">
-            <h4 className="text-xl font-semibold text-gray-200">Technologies Used</h4>
-            <div className="flex flex-wrap gap-2">
+          {/* Technologies Section */}
+          <div className="space-y-2 sm:space-y-4 mt-auto">
+            <h4 className="text-lg sm:text-xl font-semibold text-gray-200">Technologies Used</h4>
+            <div className="flex flex-wrap gap-1.5 sm:gap-2">
               {project.techStack.map((tech, index) => (
                 <span
                   key={index}
-                  className="px-4 py-2 rounded-full text-sm font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 hover:border-blue-500/40 transition-colors"
+                  className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 hover:border-blue-500/40 transition-colors"
                 >
                   {tech}
                 </span>
@@ -51,29 +49,28 @@ const ProjectCardLarge = ({ project }: { project: Project }) => {
           </div>
         </div>
 
-        {/* Footer with Links */}
-        <div className="flex items-center justify-between mt-8 pt-6 border-t border-gray-800 p-4">
-          <div className="flex gap-4">
+
+        <div className="flex items-center justify-between mt-4 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-800 p-3 sm:p-4">
+          <div className="flex gap-2 sm:gap-4">
             <Link
               href={project.githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 rounded-lg bg-gray-800 text-gray-200 hover:bg-gray-700 transition-colors"
+              className="flex items-center px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg bg-gray-800 text-gray-200 hover:bg-gray-700 transition-colors text-sm sm:text-base"
             >
-              <Github className="w-5 h-5 mr-2" />
+              <Github className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5 sm:mr-2" />
               View Code
             </Link>
             <Link
               href={project.liveLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-500 transition-colors"
+              className="flex items-center px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-500 transition-colors text-sm sm:text-base"
             >
-              <ExternalLink className="w-5 h-5 mr-2" />
+              <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5 sm:mr-2" />
               Live Demo
             </Link>
           </div>
-     
         </div>
       </div>
     </Card>

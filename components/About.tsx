@@ -62,14 +62,14 @@ export const About = () => {
                                 <h2 className={`text-lg self-start text-gray-100 text-pretty tracking-wide ${JetBrainsMonoRegular.className}`}>
                                     Hobbys & Interests
                                 </h2>
-                                <p className={`text-gray-100 text-pretty ${JetBrainsMonoLight.className}`}  >
+                                <div className={`text-gray-100 text-pretty ${JetBrainsMonoLight.className}`}  >
                                     I am particularly interested in the intersection of technology and design,
                                     I enjoy getting the small details of the UI/UX right 
                                     and I love working on projects that challenge me to think creatively.
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                                     When I'm not developing web apps I am currently Studying for Aws Cloud Certifications and enjoy doing CTF cybersecuity challenges with HTB and TryHackMe.
-                                    <div className="h-16" />
-                                </p>
+                                    <p className="h-16" />
+                                </div>
                             </div>
                         </div>
                     </motion.div>

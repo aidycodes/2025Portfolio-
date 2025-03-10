@@ -54,7 +54,7 @@ const ProjectsShowcase = () => {
   return (
     <div className=''>
             <h1 className="mt-16 text-4xl text-gray-300 font-bold mx-10 mb-4">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 p-4">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:gap-8 lg:gap-2 sm:p-4 p-0">
         {projects.map((project, index) => (
           <ProjectCardLarge key={index} project={project} />
         ))}

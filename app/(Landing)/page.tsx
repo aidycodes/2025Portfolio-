@@ -8,7 +8,7 @@ import { Tech } from '../../components/Tech';
 import Contact from '../../components/Contact';
 import { Button } from '../../components/ui/button';
 import { MessageCircle } from 'lucide-react';
-
+import About2 from '../../components/About2';
 
 export default function Page() {
     return (
@@ -17,8 +17,9 @@ export default function Page() {
             <Suspense fallback={<div className="h-screen"></div>}>
             <Hero />
             </Suspense>
-                <About />
-        
+
+                {/* <About /> */}
+                <About2 />
                 <Tech />
      
             <div className="mt-40" >

@@ -19,7 +19,7 @@ export const Projects = () => {
 
     return (
    <>
-            <div id="projects" ref={projectsRef} className="flex justify-center gap-8 ">
+            <div id="projects" ref={projectsRef} className="flex justify-center md:gap-8 ">
                 <ProjectsShowcase />
             </div> 
     </>

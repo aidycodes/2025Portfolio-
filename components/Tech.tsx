@@ -74,10 +74,10 @@ export const Tech = () => {
         <MaxWidthWrapper>
             <div className="flex justify-center">
                 <div  ref={techRef}  className="mt-20">
-                    <div>
-                        <h2 className="text-4xl font-bold text-gray-300 text-pretty mx-10 mb-4 mt-28">Technologys I Love</h2>
+                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1, delay:0.5}}>
+                        <h2 className="text-2xl md:text-4xl font-bold text-gray-300 text-pretty mx-10 mb-4 mt-28">Technologys I Love</h2>
                         <p className="text-gray-100 text-pretty text-wrap mb-8 mx-10 text-gray-400">I am proficient in a variety of modern technologies that enable me to develop highly effective and functional solutions. </p>
-                    </div>
+                    </motion.div>
                     <div className="flex flex-wrap items-center justify-center gap-4 space-y-0">
                         {TECH_STACK.map(({ icon, name }) => (
                             <motion.div 

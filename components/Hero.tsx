@@ -60,7 +60,7 @@ const Hero = () => {
                     <div className="flex flex-col items-center justify-center flex-1">
                         {/* Name with a hover effect */}
                         <motion.h1 
-                            className="text-8xl font-bold text-gray-100 opacity-90 leading-tight cursor-pointer"
+                            className=" text-center  text-pretty text-4xl md:text-6xl lg:text-8xl font-bold text-gray-100 opacity-90 leading-tight cursor-pointer"
                             initial={{ opacity: 0, y: -100 }} 
                             animate={{ opacity: 1, y: 0 }} 
                             transition={{ duration: 0.5 }}
